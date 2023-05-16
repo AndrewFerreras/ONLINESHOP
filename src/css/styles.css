@@ -153,3 +153,8 @@ body {
     color: #fff;
     text-decoration: none; /* Quita el subrayado */
   }
+
+  img {
+    width: 319px;
+    height: 319px;
+ }

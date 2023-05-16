@@ -1,8 +1,8 @@
-import Header from "../components/header";
 import SeccionP from "../components/seccionProductD";
 import Seccion  from "../components/seccion";
 import Products from '../Mocks/products.json';
-
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 const Home = () => {
   return (
     <>
@@ -17,6 +17,7 @@ const Home = () => {
         PclassName={"productos-destacados"}
         PwidthColum={4}
       />
+      <Footer/>
     </>
   );
 };

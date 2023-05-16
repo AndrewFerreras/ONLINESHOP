@@ -1,10 +1,12 @@
-import Header from "../components/header";
+import Header from "../components/Header";
 import SearchBar from "../components/searchBar";
 import { useSearchProducts } from "../hooks/useSearchProducts";
 import { useProducts } from "../hooks/useProducts";
 import { useCallback } from "react";
 import debounce from "just-debounce-it";
-import Card from "../components/card";
+import Card from "../components/Card";
+import Footer from "../components/Footer";
+import '../css/styles.css'
 const Products = () => {
   const { search, updateSearch, error } = useSearchProducts();
   const { products, getProducts, loading } = useProducts({ search });
@@ -59,6 +61,7 @@ console.log(products)
           </div>
         
       </section>
+      <Footer/>
     </>
   );
 };

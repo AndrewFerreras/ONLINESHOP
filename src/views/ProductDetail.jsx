@@ -1,6 +1,7 @@
 import { useParams, Link } from "react-router-dom";
 import { useProduct } from "../hooks/useProduct";
 import { useEffect } from "react";
+import Footer from "../components/Footer";
 import Header from "../components/Header";
 const ProductDetail = () => {
   const { search } = useParams();
@@ -11,7 +12,7 @@ const ProductDetail = () => {
 
   return (
     <>
-     <Header includeBanner={false}/>
+      <Header includeBanner={false} />
       {loading ? (
         <p>Cargando</p>
       ) : (
@@ -55,6 +56,7 @@ const ProductDetail = () => {
           </div>
         </section>
       )}
+      <Footer />
     </>
   );
 };
