@@ -1,7 +1,7 @@
 import { useParams, Link } from "react-router-dom";
 import { useProduct } from "../hooks/useProduct";
 import { useEffect } from "react";
-import Header from "../components/header";
+import Header from "../components/Header";
 const ProductDetail = () => {
   const { search } = useParams();
   const { products, getProduct, loading } = useProduct();

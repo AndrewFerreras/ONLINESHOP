@@ -1,6 +1,6 @@
 import React from "react";
-import Navbar from "./navbar";
-import Banner from "./banner";
+import Navbar from "./NavBar";
+import Banner from "./Banner";
 
 const Header = ({includeBanner}) => {
   return (

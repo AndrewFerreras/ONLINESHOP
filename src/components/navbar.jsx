@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import ButtonNavBar from './butTonNav';
+import ButtonNavBar from './ButtonNav';
 import { Link } from 'react-router-dom';
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
