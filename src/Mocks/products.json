@@ -1,0 +1,25 @@
+ {"Products":  [
+    {
+      "title": "Product1",
+      "detail": "Descripción del producto 1",
+      "hurl": "#",
+      "pimagen" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+    },
+  
+    {
+      "title": "Product2",
+      "detail": "Descripción del producto 2",
+      "hurl": "#",
+      "pimagen" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+  
+    },
+  
+    {
+      "title": "Product3",
+      "detail": "Descripción del producto 3",
+      "hurl": "#",
+      "pimagen" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+  
+    }
+  ]}
+  

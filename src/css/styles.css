@@ -1,0 +1,155 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  /* Estilos de la barra de navegación */
+  .navbar {
+    background-color: #333;
+  }
+  
+  .navbar-brand {
+    font-size: 24px;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #fff;
+    padding: 0.5rem 1rem;
+  }
+  .search-bar {
+    display: flex;
+    align-items: center;
+    width: 300px;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    padding: 8px;
+  }
+  
+  .search-bar input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: none;
+    color: #333;
+  }
+  
+  .search-bar button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: #333;
+  }
+  /* Estilos del banner */
+  .banner {
+    background-color: #f9f9f9;
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  .banner h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .banner p {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  
+  /* Estilos de los productos destacados */
+  .productos-destacados .card {
+    margin-bottom: 30px;
+  }
+  
+  .card-title {
+    font-size: 24px;
+  }
+  
+  .card-text {
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos de las categorías */
+  .categorias .categoria {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .categorias h3 {
+  font-size: 24px;
+  }
+  
+  .categorias p {
+  font-size: 16px;
+  margin-bottom: 10px;
+  }
+  
+  /* Estilos del pie de página */
+  footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  }
+  
+  footer p {
+  font-size: 14px;
+  margin-bottom: 10px;
+  }
+  
+  .redes-sociales {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  }
+  
+  .redes-sociales li {
+  display: inline-block;
+  margin-right: 10px;
+  }
+  
+  .redes-sociales a {
+  color: #fff;
+  font-size: 20px;
+  }
+  
+  /* Media queries */
+  @media (max-width: 767px) {
+  .banner h1 {
+  font-size: 28px;
+  }
+  
+  .banner p {
+  font-size: 16px;
+  }
+  
+  .categorias h3 {
+  font-size: 20px;
+  }
+  
+  .categorias p {
+  font-size: 14px;
+  }
+  }
+
+
+  a {
+    color: rgb(255, 255, 255); /* Cambia el color del texto a azul */
+    text-decoration: none; /* Quita el subrayado */
+  }
+
+  a:hover{
+    color: #fff;
+    text-decoration: none; /* Quita el subrayado */
+  }

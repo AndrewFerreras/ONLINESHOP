@@ -1,0 +1,11 @@
+{"Product":  [
+    {
+      "title": "Product1",
+      "detail": "Descripción del producto 1",
+      "hurl": "#",
+      "pimagen" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg",
+      "content" :"general loren imput",
+      "precio" :  "25.00$"
+    }]
+
+}
