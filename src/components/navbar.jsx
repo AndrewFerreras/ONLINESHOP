@@ -17,14 +17,14 @@ const Navbar = () => {
         </button>
         <div className={`collapse navbar-collapse${isMenuOpen ? ' show' : ''}`}>
           <ul className="navbar-nav ml-auto">
-            <ButtonNavBar 
+          <Link className="navbar-brand" to="/" ><ButtonNavBar 
             title = 'Inicio'
-            uref = '#'
-            />
-            <ButtonNavBar
+            /></Link>
+            
+            <Link className="navbar-brand" to="/products" >  <ButtonNavBar
              title = 'Productos'
-             uref = '#'
-            />
+            /></Link>
+          
           </ul>
         </div>
       </div>

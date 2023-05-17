@@ -48,7 +48,7 @@ const ProductDetail = () => {
                     type="button"
                   >
                     <i className="bi-cart-fill me-1"></i>
-                    Add to cart
+                  
                   </button>
                 </div>
               </div>
