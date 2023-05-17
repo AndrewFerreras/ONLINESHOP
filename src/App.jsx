@@ -3,9 +3,9 @@ import { Routes, Route } from "react-router-dom";
 import "./css/bootstrap.css";
 import "./css/styles.css";
 import Home from "./views/Home";
-import NotFound from "./views/Notfound";
 import Products from "./views/Products";
 import ProductDetail from "./views/ProductDetail";
+import NotFound from "./views/NotFound";
 const App = () => {
   
   return (
