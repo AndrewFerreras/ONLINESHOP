@@ -12,6 +12,8 @@ const Header = ({includeBanner}) => {
           includeBanner &&   <Banner
           title='Bienvenido a nuestra tienda online'
           detail='Encuentra los mejores productos al mejor precio'
+          textButton='Buscar Productos'
+          routeButton='/Products'
           /> 
         }
       
