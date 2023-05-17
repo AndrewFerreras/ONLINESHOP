@@ -1,5 +1,5 @@
 import React from "react";
-
+import Icon from "./Icon"
 const Footer = () => {
   return (
     <footer>
@@ -10,9 +10,9 @@ const Footer = () => {
           </div>
           <div className="col-md-6">
             <ul className="redes-sociales">
-              <li><a href="#"><i className="fab fa-facebook-f"></i></a></li>
-              <li><a href="#"><i className="fab fa-twitter"></i></a></li>
-              <li><a href="#"><i className="fab fa-instagram"></i></a></li>
+            <Icon ClassIconName='fab fa-facebook-f'/>
+            <Icon ClassIconName='fab fa-twitter'/>
+            <Icon ClassIconName='fab fa-instagram'/>
             </ul>
           </div>
         </div>
