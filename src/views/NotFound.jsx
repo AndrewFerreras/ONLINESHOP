@@ -1,5 +1,5 @@
-import { default as logo } from "../assets/404-error.svg";
-import Button from "../components/Button";
+import { default as logo } from "../assets/404-error.svg"
+import Button from "../components/Button"
 const NotFound = () => {
   return (
     <main  className="container-xl px-4">

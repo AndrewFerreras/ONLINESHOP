@@ -1,11 +1,13 @@
-import React from "react";
-import { Routes, Route } from "react-router-dom";
-import "./css/bootstrap.css";
-import "./css/styles.css";
-import Home from "./views/Home";
-import Products from "./views/Products";
-import ProductDetail from "./views/ProductDetail";
-import NotFound from "./views/NotFound";
+import "./css/bootstrap.css"
+import "./css/styles.css"
+import React from "react"
+import { Routes, Route } from "react-router-dom"
+import Home from "./views/Home"
+import Products from "./views/Products"
+import ProductDetail from "./views/ProductDetail"
+import NotFound from "./views/NotFound"
+
+
 const App = () => {
   
   return (
