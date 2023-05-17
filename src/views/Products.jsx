@@ -10,18 +10,14 @@ import '../css/styles.css'
 const Products = () => {
   const { search, updateSearch, error } = useSearchProducts();
   const { products, getProducts, loading } = useProducts({ search });
-  if(error == null){
 
-  }else{
-    alert(error)
-  }
   const debouncedGetProducts = useCallback(
     debounce((search) => {
       getProducts({ search });
     }, 500),
     [getProducts]
   );
-
+  
   const handleSearch = (event) => {
     event.preventDefault();
     getProducts({ search });
@@ -41,7 +37,11 @@ console.log(products)
           handleInputChange={handleInputChange}
           handleSearch={handleSearch}
         />
+        {error}
       </section>
+      {
+          
+      }
       <section className="productos-destacados">
         <div className="container">
           <div className="row">
