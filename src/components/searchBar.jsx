@@ -2,17 +2,6 @@
 import  '../css/SearchBar.css'
 import Button from './Button';
 const SearchBar = ({handleSearch,handleInputChange,search}) => {
-//  const [searchTerm, setSearchTerm] = useState('');
-
-  //const handleInputChange = (event) => {
-    //setSearchTerm(event.target.value);
- // };
-
- // const handleSearch = (event) => {
-   /// event.preventDefault();
-    // Aquí puedes agregar la lógica para realizar la búsqueda con el término searchTerm
-   // console.log('Realizar búsqueda con:', searchTerm);
-//  };
 
   return (
     <form className="search-bar" onSubmit={handleSearch}>
