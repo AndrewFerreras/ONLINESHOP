@@ -10,7 +10,11 @@ import '../css/styles.css'
 const Products = () => {
   const { search, updateSearch, error } = useSearchProducts();
   const { products, getProducts, loading } = useProducts({ search });
+  if(error == null){
 
+  }else{
+    alert(error)
+  }
   const debouncedGetProducts = useCallback(
     debounce((search) => {
       getProducts({ search });
