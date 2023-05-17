@@ -1,4 +1,4 @@
-import SeccionP from "../components/seccionProductD";
+import SeccionP from "../components/SeccionProduct";
 import Products from '../Mocks/products.json';
 import Header from "../components/Header";
 import Footer from "../components/Footer";
